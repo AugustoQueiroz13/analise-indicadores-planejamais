@@ -105,5 +105,5 @@ with aba2:
     st.markdown("""
     ### Processo de Tratamento e Metodologia (Atividade 2)
     * **Padronização e Escala:** Os valores financeiros originais foram convertidos internamente no script para a escala de milhões. Esta técnica evita a poluição visual da tabela, garantindo uma leitura direta para a tomada de decisão.
-    * **Nota Técnica sobre Coleta de Dados:** O projeto previu inicialmente a extração automatizada via Web Scraping com Python e Selenium. No entanto, o Portal da Transparência de Guapimirim utiliza um firewall de aplicação (WAF) com verificação anti-bot ativa, que bloqueia requisições automatizadas. Para garantir a precisão e a entrega dentro do escopo do teste, a amostra financeira foi consolidada de forma estática no script, mantendo o cálculo relacional dinâmico.
+    * **Nota Técnica sobre Coleta de Dados:** O projeto previu inicialmente a extração automatizada via Web Scraping com Python e Selenium. No entanto, o Portal da Transparência de Guapimirim utiliza um firewall com verificação anti-bot ativa, que bloqueia requisições automatizadas. Para garantir a precisão e a entrega dentro do escopo do teste, a amostra financeira foi consolidada de forma estática no script, mantendo o cálculo relacional dinâmico.
     """)
