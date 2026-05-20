@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys # Ferramenta para apertar a tecla ENTER
+from selenium.webdriver.common.keys import Keys 
 from webdriver_manager.chrome import ChromeDriverManager
 
 print("Iniciando o extrator com os novos passos para Guapimirim...")
@@ -66,7 +66,7 @@ try:
     campo_pesquisa = espera.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="datatable_filter"]/label/input')))
     campo_pesquisa.send_keys("royalties")
     
-    # 2. Apertar ENTER para iniciar a busca (caso o site não busque sozinho ao digitar)
+    # 2. Apertar ENTER para iniciar a busca 
     campo_pesquisa.send_keys(Keys.ENTER)
     
     # 3. Esperar a tabela atualizar e extrair o número
