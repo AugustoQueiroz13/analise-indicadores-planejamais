@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys 
 from webdriver_manager.chrome import ChromeDriverManager
 
-print("Iniciando o extrator com os novos passos para Guapimirim...")
+print("Iniciando o extrator dos dados para Guapimirim...")
 
 servico = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=servico)
